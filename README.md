@@ -8,16 +8,15 @@ It cleans up the extracted text to make it more suitable for API processing
 It sends the text to the Gemini API to extract credit card details
 It parses the response and saves the extracted information in JSON format
 
-To use this script:
+# How to use:
 
-1. First, make sure you have the necessary packages installed:
-           pip install PyPDF2 google-generativeai
+1. First, make sure you have the necessary packages installed from requirements.txt file
 
-3. Set up your Gemini API key as an environment variable in he "XX..XX" space provided in the code
+2. Set up your Gemini API key as an environment variable in he "XX..XX" space provided in the code
 
 Run the script with your PDF file path.
 
-The script will:
+# Result
 
 Extract all text from the PDF
 
