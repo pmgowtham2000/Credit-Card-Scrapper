@@ -15,10 +15,10 @@ To use this script:
 2. Set up your Gemini API key as an environment variable:
 
 # On Windows  
-set GEMINI_API_KEY=your_api_key_here        
+     set GEMINI_API_KEY=your_api_key_here        
 
 # On macOS/Linux  
-export GEMINI_API_KEY=your_api_key_here        
+     export GEMINI_API_KEY=your_api_key_here        
 
 Run the script with your PDF file path.
 
