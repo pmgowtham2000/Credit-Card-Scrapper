@@ -28,7 +28,7 @@ def extract_credit_cards_with_gemini(pdf_text):
     """Extract credit card information using Gemini API."""
     # Configure the Gemini API with your API key
     api_key = os.environ.get("GEMINI_API_KEY")
-    configure(api_key="AIzaSyDE8QlVtQPYCx_Vo-rlC6946AzFVYIfnw8")
+    configure(api_key="XXXXXXXXXXXXXXXXXXXXXXXXXXX")
     
     # Create a model instance
     model = GenerativeModel('gemini-1.5-pro')
