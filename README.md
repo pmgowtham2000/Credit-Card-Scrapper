@@ -11,12 +11,12 @@ It parses the response and saves the extracted information in JSON format
 # How to use:
 
 1. First, make sure you have the necessary packages installed from requirements.txt file
-
+#
      pip install -r requirements.txt
 
-3. Set up your Gemini API key as an environment variable in he "XX..XX" space provided in the code
+2. Set up your Gemini API key as an environment variable in he "XX..XX" space provided in the code
 
-4. Run the script with your PDF file path.
+3. Run the script with your PDF file path.
 
 # Result
 
