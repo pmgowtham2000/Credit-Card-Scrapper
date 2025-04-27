@@ -1,30 +1,26 @@
 # Credit-Card-Scrapper
 A scraping bot that can extract credit card information froma a PDF document.
 
-I've created a script that extends your PDF extraction code to use the Gemini API for extracting credit card information. Here's how it works:
+I've created a script that extends your PDF extraction code to use the Gemini API for extracting credit card information. I have briefed it below:
 
 It reads and extracts text from your PDF using PyPDF2 (keeping your original function)
 It cleans up the extracted text to make it more suitable for API processing
-It sends the text to the Gemini API with a carefully crafted prompt to extract credit card details
+It sends the text to the Gemini API to extract credit card details
 It parses the response and saves the extracted information in JSON format
 
 To use this script:
 
-1. First, make sure you have the necessary packages installed: pip install PyPDF2 google-generativeai
+1. First, make sure you have the necessary packages installed:
+           pip install PyPDF2 google-generativeai
 
-2. Set up your Gemini API key as an environment variable:
-
-# On Windows  
-     set GEMINI_API_KEY=your_api_key_here        
-
-# On macOS/Linux  
-     export GEMINI_API_KEY=your_api_key_here        
+3. Set up your Gemini API key as an environment variable in he "XX..XX" space provided in the code
 
 Run the script with your PDF file path.
 
 The script will:
 
 Extract all text from the PDF
+
 Process the text with Gemini API to identify credit card details
 
 Save the extracted data to a JSON file
