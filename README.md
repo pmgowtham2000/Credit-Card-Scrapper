@@ -1,5 +1,5 @@
 # Credit-Card-Scrapper
-A scraping bot that can extract credit card information fromaA PDF document.
+A scraping bot that can extract credit card information froma a PDF document.
 
 I've created a script that extends your PDF extraction code to use the Gemini API for extracting credit card information. Here's how it works:
 
@@ -14,10 +14,10 @@ To use this script:
 
 2. Set up your Gemini API key as an environment variable:
 
-#On Windows
+#On Windows  
 set GEMINI_API_KEY=your_api_key_here        
 
-#On macOS/Linux
+#On macOS/Linux  
 export GEMINI_API_KEY=your_api_key_here        
 
 Run the script with your PDF file path.
