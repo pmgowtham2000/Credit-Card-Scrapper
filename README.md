@@ -26,7 +26,9 @@ The script will:
 
 Extract all text from the PDF
 Process the text with Gemini API to identify credit card details
+
 Save the extracted data to a JSON file
+
 Print a summary of the findings
 
 The output JSON will contain all the credit card details you requested: card name, issuing bank, joining fee, annual fee, reward structure, and cashback offers.
